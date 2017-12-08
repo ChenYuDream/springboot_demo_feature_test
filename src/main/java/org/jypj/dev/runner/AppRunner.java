@@ -22,7 +22,7 @@ public class AppRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // Start the clock
-        long start = System.currentTimeMillis();
+       /* long start = System.currentTimeMillis();
 
         // Kick of multiple, asynchronous lookups
         Future<User> page1 = gitHubLookupService.findUser("PivotalSoftware");
@@ -39,7 +39,7 @@ public class AppRunner implements CommandLineRunner {
         log.info("Elapsed time: " + (System.currentTimeMillis() - start));
         log.info("--> " + page1.get());
         log.info("--> " + page2.get());
-        log.info("--> " + page3.get());
+        log.info("--> " + page3.get());*/
     }
 
 }
